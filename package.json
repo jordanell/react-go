@@ -1,0 +1,26 @@
+{
+  "author": "ruboss",
+  "name": "react-go",
+  "description": "The game Go written with React.",
+  "version": "0.0.1",
+  "homepage": "http://github.com/jordanell/react-go",
+  "private": true,
+  "scripts": {
+    "build-no-optimize": "brunch build",
+    "build": "brunch build --production",
+    "start": "brunch watch"
+  },
+  "dependencies": {
+    "react-tools": "0.12.1",
+    "cjsx-react-brunch": "~0.0.2",
+    "javascript-brunch": ">= 1.0 < 1.8",
+    "css-brunch": ">= 1.0 < 1.8",
+    "uglify-js-brunch": ">= 1.0 < 1.8",
+    "clean-css-brunch": ">= 1.0 < 1.8",
+    "auto-reload-brunch": "~1.7.1",
+    "coffee-script-brunch": "~1.7.3",
+    "sass-brunch": "~1.7.2",
+    "react-brunch": "~1.0.4",
+    "coffee-script": "*"
+  }
+}
