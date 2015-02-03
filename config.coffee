@@ -11,10 +11,10 @@ exports.config =
     javascripts:
       defaultExtension: "coffee"
       joinTo:
-        'application.js': /^(src)/
+        'app.js': /^(src)/
         'vendor.js': /^(bower_components|vendor)/
       order:
-        before: ["bower_components/es5-shim/es5-shim.js"]
+        before: ["bower_components/jquery/jquery.js"]
 
     stylesheets:
       defaultExtension: 'scss'

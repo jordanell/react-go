@@ -2,8 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="/vendor.css" type="text/css" media="screen" charset="utf-8">
-    <link rel="stylesheet" href="/app.css" type="text/css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="app.css" type="text/css" media="screen" charset="utf-8">
     <meta name="viewport" content="width=device-width, height=device-height initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 
     <!--[if lte IE 9]>
@@ -18,5 +17,11 @@
     <section id="react-root"></section>
   </body>
 
-  <script src="/application.js" type="text/javascript" charset="utf-8"></script>
+  <script src="vendor.js" type="text/javascript" charset="utf-8"></script>
+  <script src="app.js" type="text/javascript" charset="utf-8"></script>
+
+  <script type="text/javascript">
+    APP_ROOT  = document.getElementById('react-root')
+    require('go').boot()
+  </script>
 </html>
