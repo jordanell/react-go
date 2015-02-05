@@ -4,7 +4,7 @@ set -e
 current_pwd=$(pwd)
 
 # Frontend compilation
-cd ./ &&
+cd ./client/ &&
 
 printf "Checking & installing npm modules..." &&
 npm install &&

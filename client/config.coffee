@@ -4,7 +4,7 @@ exports.config =
     ignored: /^(src\/styles\/overrides|(.*?\/)?[_]\w*)/
 
   paths:
-    public: './public'
+    public: '../public'
     watched: ["src"]
 
   files:

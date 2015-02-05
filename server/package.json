@@ -1,0 +1,15 @@
+{
+  "name": "react-go",
+  "version": "0.0.1",
+  "description": "The game Go written with React.",
+  "homepage": "http://github.com/jordanell/react-go",
+  "private": true,
+  "scripts": {
+    "start": "coffee src/server.coffee"
+  },
+  "dependencies": {
+    "coffee-script": "1.7.x",
+    "finalhandler": "^0.3.3",
+    "serve-static": "^1.8.1"
+  }
+}

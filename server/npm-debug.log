@@ -1,0 +1,27 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'start' ]
+2 info using npm@2.0.0-alpha-5
+3 info using node@v0.10.29
+4 verbose node symlink /usr/local/bin/node
+5 verbose run-script [ 'prestart', 'start', 'poststart' ]
+6 info prestart react-go@0.0.1
+7 info start react-go@0.0.1
+8 verbose unsafe-perm in lifecycle true
+9 info react-go@0.0.1 Failed to exec start script
+10 error react-go@0.0.1 start: `coffee src/server.coffee`
+10 error Exit status 1
+11 error Failed at the react-go@0.0.1 start script.
+11 error This is most likely a problem with the react-go package,
+11 error not with npm itself.
+11 error Tell the author that this fails on your system:
+11 error     coffee src/server.coffee
+11 error You can get their info via:
+11 error     npm owner ls react-go
+11 error There is likely additional logging output above.
+12 error System Darwin 13.4.0
+13 error command "node" "/usr/local/bin/npm" "start"
+14 error cwd /Users/jordan/Documents/react-go/server
+15 error node -v v0.10.29
+16 error npm -v 2.0.0-alpha-5
+17 error code ELIFECYCLE
+18 verbose exit [ 1, true ]
